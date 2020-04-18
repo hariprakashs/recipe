@@ -5,4 +5,4 @@ python:
 before_script: pip install docker-compose
 
 script:
-  - python manage.py test
+  - python app/manage.py test
